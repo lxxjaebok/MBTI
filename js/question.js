@@ -50,7 +50,7 @@ function nextQuestion(choiceNumber){
 
 function showResultPage(mbti){
     // http://127.0.0.1:5500/result.html?mbti=istj
-    location.href = './result.html?mbti=' + mbti
+    location.href = './results.html?mbti=' + mbti
 }
 
 renderQuestion()
